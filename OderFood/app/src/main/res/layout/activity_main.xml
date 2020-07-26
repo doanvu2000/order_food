@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="Doan Vũ̃'s Restaurant"
+        android:textColor="#A1F393"
+        android:textSize="@dimen/_30sdp"></TextView>
+
+    <EditText
+        android:textSize="@dimen/_15sdp"
+        android:id="@+id/edtUsrename"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/borderedt"
+        android:hint="Username"
+        android:padding="@dimen/_5sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textColor="#A1F393"
+        android:textColorHint="#A1F393">
+
+    </EditText>
+
+    <EditText
+        android:textSize="@dimen/_15sdp"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/borderedt"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textColor="#A1F393"
+        android:textColorHint="#A1F393">
+
+    </EditText>
+
+    <Button
+        android:textColor="#F5FFFFFF"
+        android:id="@+id/btnLogin"
+        android:layout_marginHorizontal="@dimen/_100sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/borderbtn"
+        android:text="Login">
+
+    </Button>
+
+
+</LinearLayout>
